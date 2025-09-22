@@ -7,33 +7,46 @@ AI-DRIVEN VOICE ASSISTANT</title>
 <body>
 <h1>AI-DRIVEN VOICE ASSISTANT</h1>
 <p>
-Veena is a multilingual voice-based insurance assistant bot built using Python. It interacts 
-with users to guide them through life insurance policy renewal conversations. The bot 
-supports English, Hindi, Marathi, and Gujarati languages and dynamically switches between 
-them based on user input. It uses structured conversation branches to explain policy details, 
-handle objections with pre-defined rebuttals, and record user intentions. 
-It also integrates Wikipedia to answer general insurance-related queries in the selected 
-language. The bot features a GUI chat window, speech recognition using the Google Speech 
-API, and voice output using gTTS and Pygame. </p>
+Veena is an AI-powered, multilingual insurance assistant bot built using Python and large language models (LLMs). It interacts with users through both voice calls and a GUI chat interface to guide them through life insurance policy renewal conversations. The bot intelligently answers questions, handles objections, and provides contextual recommendations in real time. It supports English, Hindi, Marathi, and Gujarati, dynamically switching languages based on user input. Wikipedia integration allows Veena to answer general insurance-related queries. Twilio enables real-time voice calls, allowing Veena to communicate seamlessly over the phone. </p>
 <h3>Key Highlights :</h3>
 <pre> 
-Multilingual voice conversation (English, Hindi, Marathi, Gujarati) 
-Structured flow for policy verification, payment confirmation, rebuttal logic 
-Real-time Text-to-Speech and Speech Recognition 
-Wikipedia integration for user FAQs 
-GUI-based chat interface (Tkinter)</pre>
+LLM-Powered Conversations: Handles dynamic, context-aware queries.
+
+Twilio Call Integration: Supports real-time voice calls with users.
+
+Multilingual Support: English, Hindi, Marathi, Gujarati with seamless switching.
+
+Voice Interaction: Real-time speech recognition and natural voice responses.
+
+Knowledge Integration: Wikipedia and insurance-related knowledge for FAQs.
+
+GUI-Based Chat: Interactive interface using Tkinter.
+
+Intelligent Objection Handling: Understands and responds to objections meaningfully.</pre>
 <h3>Performance Metrics :</h3>
 <pre> 
-Feature - Metric 
-Voice recognition latency - ~1.0 sec 
-TTS response time - 1.5 – 2.5 sec 
-Average interaction delay - ~2 seconds 
-Supported languages - 4 (English, Hindi, Marathi, Gujarati)
-User interaction mode - Continuous listening + voice output </pre>
+Feature	Metric
+Voice recognition latency	~1.0 sec
+LLM response generation	2 – 3 sec
+TTS response time	1.5 – 2.5 sec
+Average interaction delay	~2.5 sec
+Twilio call response latency	~2 – 3 sec
+Supported languages	4 (English, Hindi, Marathi, Gujarati)
+User interaction mode	Continuous listening + voice output + phone calls
+Context-aware response accuracy	High (dependent on input complexity) </pre>
 <h3>Tools & Technologies Used : </h3>
 <pre>
-Python, Tkinter, SpeechRecognition, gTTS, pygame, wikipedia, googletrans 
-Tested on Python 3.8+ with real-time voice input and GUI feedback.<pre>
+Programming & GUI: Python, Tkinter
+
+Speech Recognition & TTS: SpeechRecognition, gTTS, pygame
+
+LLM & NLP: Hugging Face Transformers / OpenAI API (for LLM integration)
+
+Telephony & Voice Calls: Twilio API
+
+Knowledge Retrieval: Wikipedia API, googletrans
+
+Python Version: Tested on Python 3.8+ with real-time voice input, GUI, and phone calls<pre>
 <h3>Demo Video :</h3>
 <video width="600" controls autoplay loop muted>
   <source src="demovideo.mp4" type="video/mp4">
@@ -42,4 +55,5 @@ Tested on Python 3.8+ with real-time voice input and GUI feedback.<pre>
 </body>
 
 </html>
+
 
